@@ -14,3 +14,5 @@ The content of the `src/main/scripts` folder should be copied to `build/scripts`
 The content of the `src/main/scripts` folder is NOT copied to `build/scripts` folder.
 
 If I run this task manually with `gradle processResources`, the expected behavior is observed.
+
+Might be related to this implementation: https://github.com/JetBrains/intellij-community/blob/master/plugins/gradle/tooling-extension-impl/src/org/jetbrains/plugins/gradle/tooling/builder/ExternalProjectBuilderImpl.groovy
